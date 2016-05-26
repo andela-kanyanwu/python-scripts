@@ -1,10 +1,5 @@
 #!/usr/bin/env python
 
-"""
-Ensure you install requests before running this program.
-pip install requests.
-"""
-
 import requests
 import os
 
