@@ -1,9 +1,10 @@
 #!/usr/bin/env python
 
-import requests
+import sys
 import os
+import requests
 
-FILE_NAME = "urls.txt"
+FILE_NAME = sys.argv[1]
 
 
 def get_status():
